@@ -1,0 +1,219 @@
+(base) PS D:\artifact\artifact> docker run artifact /bin/bash -c "source /artifact/activeASan.sh; python3 /artifact/run.py"
+Compiler Information:
+clang version 12.0.1
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /artifact/LLVM-ASan/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+============= Juliet Test Start =============
+working on CWE121_Stack_Based_Buffer_Overflow
+     2125 cases detected
+working on CWE122_Heap_Based_Buffer_Overflow
+     1947 cases detected
+working on CWE124_Buffer_Underwrite
+     619 cases detected
+working on CWE126_Buffer_Overread
+     385 cases detected
+working on CWE127_Buffer_Underread
+     518 cases detected
+working on CWE416_Use_After_Free
+     118 cases detected
+working on CWE476_NULL_Pointer_Dereference
+     59 cases detected
+working on CWE761_Free_Pointer_Not_at_Start_of_Buffer
+     38 cases detected
+============= Juliet Test End =============
+============= CVE Test Start =============
+working on /artifact/linuxflaw/mp3gain
+  cleaning
+  compiling
+  running
+testing CVE-2017-14409: Passed
+testing CVE-2017-14407: Passed
+testing CVE-2017-14408: Passed
+working on /artifact/linuxflaw/imageworsener
+  cleaning
+  compiling
+  running
+testing CVE-2017-9205: Passed
+testing CVE-2017-9204: Passed
+testing CVE-2017-9207: Passed
+testing CVE-2017-9206: Passed
+working on /artifact/linuxflaw/libzip
+  cleaning
+  compiling
+  running
+testing CVE-2017-12858: Passed
+working on /artifact/linuxflaw/lame
+  cleaning
+  compiling
+  running
+testing CVE-2015-9101: Passed
+working on /artifact/linuxflaw/zziplib
+  cleaning
+  compiling
+  running
+testing CVE-2017-5976: Passed
+testing CVE-2017-5977: Passed
+working on /artifact/linuxflaw/autotrace
+  cleaning
+  compiling
+  running
+testing CVE-2017-9164: Passed
+testing CVE-2017-9169: Passed
+testing CVE-2017-9173: Passed
+testing CVE-2017-9170: Passed
+testing CVE-2017-9165: Passed
+testing CVE-2017-9167: Passed
+testing CVE-2017-9172: Passed
+testing CVE-2017-9171: Passed
+testing CVE-2017-9168: Passed
+testing CVE-2017-9166: Passed
+working on /artifact/linuxflaw/libtiff
+  cleaning
+  compiling
+  running
+testing CVE-2016-10271: Passed
+testing CVE-2016-10095: Passed
+testing CVE-2016-10270: Passed
+working on /artifact/linuxflaw/potrace
+  cleaning
+  compiling
+  running
+testing CVE-2017-7263: Passed
+============= CVE Test End =============
+============= MAGMA(PHP) Test Start =============
+Recompiling the project
+Compilation End
+-- Progress 0.8% --
+-- Progress 1.6% --
+-- Progress 2.4% --
+-- Progress 3.2% --
+-- Progress 4.0% --
+-- Progress 4.8% --
+-- Progress 5.6% --
+-- Progress 6.41% --
+-- Progress 7.21% --
+-- Progress 8.01% --
+-- Progress 8.81% --
+-- Progress 9.61% --
+-- Progress 10.41% --
+-- Progress 11.21% --
+-- Progress 12.01% --
+-- Progress 12.81% --
+-- Progress 13.61% --
+-- Progress 14.41% --
+-- Progress 15.21% --
+-- Progress 16.01% --
+-- Progress 16.81% --
+-- Progress 17.61% --
+-- Progress 18.41% --
+-- Progress 19.22% --
+-- Progress 20.02% --
+-- Progress 20.82% --
+-- Progress 21.62% --
+-- Progress 22.42% --
+-- Progress 23.22% --
+-- Progress 24.02% --
+-- Progress 24.82% --
+-- Progress 25.62% --
+-- Progress 26.42% --
+-- Progress 27.22% --
+-- Progress 28.02% --
+-- Progress 28.82% --
+-- Progress 29.62% --
+-- Progress 30.42% --
+-- Progress 31.22% --
+-- Progress 32.03% --
+-- Progress 32.83% --
+-- Progress 33.63% --
+-- Progress 34.43% --
+-- Progress 35.23% --
+-- Progress 36.03% --
+-- Progress 36.83% --
+-- Progress 37.63% --
+-- Progress 38.43% --
+-- Progress 39.23% --
+-- Progress 40.03% --
+-- Progress 40.83% --
+-- Progress 41.63% --
+-- Progress 42.43% --
+-- Progress 43.23% --
+-- Progress 44.04% --
+-- Progress 44.84% --
+-- Progress 45.64% --
+-- Progress 46.44% --
+-- Progress 47.24% --
+-- Progress 48.04% --
+-- Progress 48.84% --
+-- Progress 49.64% --
+-- Progress 50.44% --
+-- Progress 51.24% --
+-- Progress 52.04% --
+-- Progress 52.84% --
+-- Progress 53.64% --
+-- Progress 54.44% --
+-- Progress 55.24% --
+-- Progress 56.04% --
+-- Progress 56.85% --
+-- Progress 57.65% --
+-- Progress 58.45% --
+-- Progress 59.25% --
+-- Progress 60.05% --
+-- Progress 60.85% --
+-- Progress 61.65% --
+-- Progress 62.45% --
+-- Progress 63.25% --
+-- Progress 64.05% --
+-- Progress 64.85% --
+-- Progress 65.65% --
+-- Progress 66.45% --
+-- Progress 67.25% --
+-- Progress 68.05% --
+-- Progress 68.86% --
+-- Progress 69.66% --
+-- Progress 70.46% --
+-- Progress 71.26% --
+-- Progress 72.06% --
+-- Progress 72.86% --
+-- Progress 73.66% --
+-- Progress 74.46% --
+-- Progress 75.26% --
+-- Progress 76.06% --
+-- Progress 76.86% --
+-- Progress 77.66% --
+-- Progress 78.46% --
+-- Progress 79.26% --
+-- Progress 80.06% --
+-- Progress 80.86% --
+-- Progress 81.67% --
+-- Progress 82.47% --
+-- Progress 83.27% --
+-- Progress 84.07% --
+-- Progress 84.87% --
+-- Progress 85.67% --
+-- Progress 86.47% --
+-- Progress 87.27% --
+-- Progress 88.07% --
+-- Progress 88.87% --
+-- Progress 89.67% --
+-- Progress 90.47% --
+-- Progress 91.27% --
+-- Progress 92.07% --
+-- Progress 92.87% --
+-- Progress 93.67% --
+-- Progress 94.48% --
+-- Progress 95.28% --
+-- Progress 96.08% --
+-- Progress 96.88% --
+-- Progress 97.68% --
+-- Progress 98.48% --
+-- Progress 99.28% --
+REDZONE= 16: 1546 testcases detected
+REDZONE=512: 1949 testcases detected
+============= MAGMA(PHP) Test End =============
